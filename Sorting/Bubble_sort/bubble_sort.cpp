@@ -4,6 +4,7 @@ using namespace std;
 
 void bubble_sort(int arr[], int n){
     for(int i=n-1; i>=0; i--){
+        bool did_swap = false;
 
         for(int j=0; j<=i-1; j++){
 
@@ -12,10 +13,14 @@ void bubble_sort(int arr[], int n){
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
 
+                did_swap=true;
             }
         }
+        if(! did_swap){
+            break;
+        }
     }
-    cout << "After selection sort: " << "\n";
+    cout << "After bubble sort: " << "\n";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }

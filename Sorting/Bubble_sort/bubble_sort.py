@@ -14,3 +14,5 @@ def bubble_sort(arr):
 arr = [13, 46, 24, 52, 20, 9]
 # Call bubble sort
 bubble_sort(arr)
+
+
