@@ -30,7 +30,6 @@ def quick_sort(arr, low, high):
 # Driver code
 arr = [10, 7, 8, 9, 1, 5]
 
-
 # Call quicksort
 quick_sort(arr, 0, len(arr) - 1)
 

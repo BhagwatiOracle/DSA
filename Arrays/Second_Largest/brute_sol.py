@@ -1,4 +1,3 @@
-
 def second_Largest(arr):
 
     if len(arr)< 2:
